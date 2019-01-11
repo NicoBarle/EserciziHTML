@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div.uno {
+  width: 200px;
+  height: 200px;
+  background: red;
+  -webkit-transition: width 0.5s, height 0.5s;
+  transition: width 0.5s, height 0.5s;
+}
+
+div.uno:hover {
+  width: 400px;
+  height: 400px;
+}
+
+div.due{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 2s;
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+div.tre{
+  width:200px;
+  height:200px;
+  background-color: red;
+  position: relative;
+  -webkit-animation: mymove 5s infinite;
+  animation: mymove 5s infinite;  
+}
+
+div.tre {animation-timing-function: linear;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+
+div.quattro{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  -webkit-animation-name: quattro; 
+  -webkit-animation-duration: 4s; 
+  -webkit-animation-iteration-count: 3; 
+  animation-name: quattro;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}
+
+@keyframes quattro {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+} 
+
+div.cinque{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  -webkit-animation-name: cinque; 
+  -webkit-animation-duration: 4s; 
+  -webkit-animation-direction: reverse; 
+  animation-name: cinque;
+  animation-duration: 4s;
+  animation-direction: reverse;  
+}
+
+@keyframes cinque {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+</style>
+</head>
+<body>
+    <p>Le misure di questo div raddoppiano in 0.5 sec</p>
+     <div class="uno"></div>
+
+    <p>Il colore di questo div cambia da rosso a giallo</p>
+    <div class="due"></div>
+
+    <p>Questo div si sposta verso destra</p>
+    <div class="tre"></div>
+
+    <p>Questo div si sposta in quattro direzioni in senso orario</p>
+    <div class="quattro"></div>
+
+    <p>Questo div si muove in quattro direzioni in senso antiorario</p>
+    <div class="cinque"></div>
+</body>
+</html>

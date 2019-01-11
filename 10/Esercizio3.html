@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+	#div1 {
+			
+			width: 200px;
+			height: 200px;
+			background-color: red;
+            position: relative;
+			}
+			#div1:hover {
+				animation-name: uno;
+				animation-duration :4s;
+			}
+			
+			@keyframes uno {
+			 0%  {background-color: red;}
+			25%  {background-color: yellow;}
+			50%  {background-color: green;}
+			100% {background-color: blue;}
+			}
+			
+			
+	#div2 {
+			
+			width: 200px;
+			height: 200px;
+			background: red;
+            position: relative;
+			}
+			#div2:hover {
+				animation-name: due;
+				animation-duration :4s;
+			}
+			@keyframes due {
+		    0%  {background-color:red; left:0px; top:0px;}
+			25%  {background-color:yellow; left:200px; top:0px;}
+			50%  {background-color:green; left:200px; top:200px;}
+			75%  {background-color:blue; left:0px; top:200px;}
+			100% {background-color:red; left:0px; top:0px;}
+			}
+			
+	#div3 {
+				
+				width: 200px;
+				height: 200px;
+				background: red;
+				position: relative;
+				animation-delay: 5s;
+				
+			}
+			#div3:hover {
+				animation-name: tre;
+				animation-duration :5s;
+			}
+			
+			@keyframes tre {
+			0%   {background-color:red; left:0px; top:0px;}
+			25%  {background-color:yellow; left:200px; top:0px;}
+			50%  {background-color:green; left:200px; top:200px;}
+			75%  {background-color:blue; left:0px; top:200px;}
+			100% {background-color:red; left:0px; top:0px;}
+			}
+				
+	#div4 {
+				
+				width: 200px;
+				height: 200px;
+				background: red;
+				position: relative;
+				transition:  ease-in-out;
+				
+			}
+			#div4:hover {
+				animation-name: quattro;
+				animation-duration :3s;
+			}
+			
+			@keyframes quattro {
+			0%  {background-color:red; left:0px; top:0px;}
+			25%  {background-color:yellow; left:200px; top:0px;}
+			50%  {background-color:green; left:200px; top:200px;}
+			75%  {background-color:blue; left:0px; top:200px;}
+			100% {background-color:red; left:0px; top:0px;}
+			}
+				
+	#div5 {
+	
+				width: 200px;
+				height: 200px;
+				background: red;
+				position: relative;
+				transition:  ease-in-out;
+				
+			}
+			#div5:hover {
+				animation-name: cinque;
+				animation-duration :1s;
+			}
+			
+			@keyframes cinque {
+			0%   {background-color:red;}
+			25%  {background-color:purple;}
+			50%  {background-color:pink;}
+			75%  {background-color:cyan;}
+			100% {background-color:green;}
+			}
+					
+	#div6 {
+			
+				width: 200px;
+				height: 200px;
+				background: red;
+				position: relative;
+				transition:  ease-in-out;
+				
+			}
+			#div6:hover {
+				animation-name: sei;
+				animation-duration :0.5s;
+			}
+			
+			@keyframes sei {
+			0%   {background-color:red; left:0px; top:0px;}
+			25%  {background-color:green; left:400px; top:0px;}
+			50%  {background-color:purple; left:400px; top:500px;}
+			75%  {background-color:blue; left:0px; top:500px;}
+			100% {background-color:fuchsia; left:0px; top:0px;}
+			}
+
+    #div7 {
+			
+				width: 200px;
+				height: 200px;
+				background: red;
+				position: relative;
+				transition:  ease-in-out;
+				
+			}
+			#div7:hover {
+				animation-name: sette;
+				animation-duration :1s;
+			}
+			
+			@keyframes sette {
+			0%   {background-color:red; left:0px; top:0px;}
+			25%  {background-color:green; left:200px; top:0px;}
+			50%  {background-color:red; left:400px; top:0px;}
+			75%  {background-color:green; left:600px; top:0px;}
+			100% {background-color:red; left:800px; top:0px;}
+			}
+						
+	#div8 {
+			
+				width: 200px;
+				height: 200px;
+				background: red;
+				position: relative;
+				transition:  ease-in-out;
+				
+			}
+			#div8:hover {
+				animation-name: otto;
+				animation-duration :0.5s;
+			}
+			
+			@keyframes otto {
+			0%   {background-color:red; left:0px; top:0px;}
+			25%  {background-color:purple; left:0px; top:50px;}
+			50%  {background-color:blue; left:0px; top:100px;}
+			75%  {background-color:violet; left:0px; top:200px;}
+			100% {background-color:gold; left:0px; top:400px;}
+			}
+			
+			
+				
+	#div9 {
+			
+				width: 200px;
+				height: 200px;
+				background: red;
+				position: relative;
+				transition:  ease-in-out;
+			}
+			#div9:hover {
+				animation-name: nove;
+				animation-duration :0.5s;
+			}
+			
+			@keyframes nove {
+			0%   {background-color:red; left:0px; top:0px;}
+			25%  {background-color:green; left:200px; top:50px;}
+			50%  {background-color:blue; left:-400px; top:60px;}
+			75%  {background-color:fuchsia; left:300px; top:10px;}
+			100% {background-color:red; left:0px; top:0px;}
+			}
+			
+			
+	#div10 {
+				
+				width: 200px;
+				height: 200px;
+				background: red;
+				position: relative;
+				transition:  ease-in-out;
+				
+			}
+			#div10:hover {
+				animation-name: dieci;
+				animation-duration :0.5s;
+			}
+			
+			@keyframes dieci {
+			0%   {background-color:red; left:0px; top:0px;}
+			25%  {background-color:purple; left:10px; top:50px;}
+			50%  {background-color:blue; left:-100px; top:-50px;}
+			75%  {background-color:violet; left:100px; top:100px;}
+			100% {background-color:red; left:-200px; top:-100px;}
+			}
+			
+				
+	</style>
+	</head>
+	<body>
+		<article>
+            <p>Questo box cambia colore.</p>
+			<div id = "div1"><h1>1º</h1></div>
+		</article>
+		
+		<article>
+            <p>Questo box si sposta in senso orario cambiando colore.</p>
+			<div id = "div2"><h1>2º</h1></div>
+		</article>
+		
+		<article>
+            <p>Questo box ha la stessa animazione di quello precedente ma inizia con 5sec di ritardo.</p>
+			<div id = "div3"><h1>3º</h1></div>
+		</article>
+		
+		<article>
+            <p>Questo box ha la stessa animazione di quello precedente ma è più veloce.</p>
+			<div id = "div4"><h1>4º</h1></div>
+		</article>
+			
+		<article>
+            <p>Animazione a piacere.</p>
+			<div id = "div5"><h1>5º</h1></div>
+        </article>
+        
+		<article>
+            <p>Animazione a piacere.</p>
+            <div id = "div6"><h1>6º</h1></div>
+        </article>
+        
+		<article>
+            <p>Animazione a piacere.</p>
+			<div id = "div7"><h1>7º</h1></div>
+        </article>
+
+        <article>
+            <p>Animazione a piacere.</p>
+            <div id = "div8"><h1>8º</h1></div>
+        </article>    
+
+		<article>
+                <p>Animazione a piacere.</p>
+            <div id = "div9"><h1>9º</h1></div>
+        </article>
+        
+		<article>
+                <p>Animazione a piacere.</p>
+			<div id = "div10"><h1>10º</h1></div>
+        </article>
+        
+	</body>
+</html>

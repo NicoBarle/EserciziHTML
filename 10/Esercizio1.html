@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    div.uno {
+  width: 100px;
+  height: 50px;
+  margin-top: 100px;
+  background-color: red;
+  border: 1px solid black;
+}
+div.uno {
+  -ms-transform: rotate(45deg); 
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+div.due {
+  width: 100px;
+  height: 50px;
+  margin-left: 300px;
+  background-color: red;
+  border: 1px solid black;
+  -ms-transform: scale(2,3); 
+  -webkit-transform: scale(2,3); 
+  transform: scale(2,3); 
+}
+div.tre {
+  width: 100px;
+  height: 50px;
+  margin-left: 600px;
+  background-color: red;
+  border: 1px solid black;
+  -ms-transform: matrix(1, -0.3, 0, 1, 0, 0); 
+  -webkit-transform: matrix(1, -0.3, 0, 1, 0, 0); 
+  transform: matrix(1, -0.3, 0, 1, 0, 0); 
+}
+</style>
+</head>
+<body>
+
+    <div class="uno">
+        1º box
+    </div>
+
+    <div class="due">
+        2º box
+    </div>
+
+    <div class="tre">
+        3º box
+    </div>
+</body>
+</html>
